@@ -11,7 +11,7 @@ import.meta.env
       setResult("Sending....");
       const formData = new FormData(event.target);
 
-      formData.append("access_key", `${import.meta.env.VITE_TEST_VAR}`);
+      formData.append("access_key", "0bd979cb-0c37-4f5f-8d5e-b88786231cfc");
 
       const response = await fetch("https://api.web3forms.com/submit", {
         method: "POST",
